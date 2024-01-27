@@ -2,7 +2,9 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-	use { "catppuccin/nvim", as = "catppuccin"}
+	use { "wbthomason/packer.nvim" }
+
+	use { "catppuccin/nvim", as = "catppuccin" }
 
 	use { "tveskag/nvim-blame-line" }
 	

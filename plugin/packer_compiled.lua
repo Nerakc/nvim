@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/nerakc/.cache/nvim/packer_hererocks/2.1.1702233742/share/lua/5.1/?.lua;/home/nerakc/.cache/nvim/packer_hererocks/2.1.1702233742/share/lua/5.1/?/init.lua;/home/nerakc/.cache/nvim/packer_hererocks/2.1.1702233742/lib/luarocks/rocks-5.1/?.lua;/home/nerakc/.cache/nvim/packer_hererocks/2.1.1702233742/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/nerakc/.cache/nvim/packer_hererocks/2.1.1702233742/lib/lua/5.1/?.so"
+local package_path_str = "C:\\Users\\Nerakc\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1703942320\\share\\lua\\5.1\\?.lua;C:\\Users\\Nerakc\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1703942320\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\Nerakc\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1703942320\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\Nerakc\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1703942320\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
+local install_cpath_pattern = "C:\\Users\\Nerakc\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1703942320\\lib\\lua\\5.1\\?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,42 +76,47 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   catppuccin = {
     loaded = true,
-    path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/catppuccin",
+    path = "C:\\Users\\Nerakc\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
   ["nvim-blame-line"] = {
     loaded = true,
-    path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/nvim-blame-line",
+    path = "C:\\Users\\Nerakc\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-blame-line",
     url = "https://github.com/tveskag/nvim-blame-line"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "C:\\Users\\Nerakc\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "C:\\Users\\Nerakc\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  ["packer.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Nerakc\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
+    url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "C:\\Users\\Nerakc\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "C:\\Users\\Nerakc\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-commentary"] = {
     loaded = true,
-    path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    path = "C:\\Users\\Nerakc\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-commentary",
     url = "https://github.com/tpope/vim-commentary"
   },
   ["vim-fugitive"] = {
     loaded = true,
-    path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    path = "C:\\Users\\Nerakc\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   }
 }
