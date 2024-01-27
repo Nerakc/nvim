@@ -2,8 +2,10 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-	use {"catppuccin/nvim", as = "catppuccin"}
+	use { "catppuccin/nvim", as = "catppuccin"}
 
+	use { "tveskag/nvim-blame-line" }
+	
 	use { "tpope/vim-fugitive" }
 	
 	use { "tpope/vim-commentary" }

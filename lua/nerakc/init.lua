@@ -9,7 +9,6 @@ vim.keymap.set("n", "<leader>fw", vim.cmd.w)
 vim.keymap.set("n", "<leader>fq", vim.cmd.q)
 
 
-
 -- Nvim tree controlls
 vim.keymap.set("n", "<leader>fo", vim.cmd.NvimTreeOpen)
 vim.keymap.set("n", "<leader>nt", vim.cmd.NvimTreeToggle)
@@ -29,9 +28,15 @@ vim.keymap.set("i", "<C-j>", "<C-o>j")
 vim.keymap.set("i", "<C-k>", "<C-o>k")
 vim.keymap.set("i", "<C-l>", "<C-o>l")
 
+
 -- Line movement
 vim.keymap.set("n", "<A-j>", ":m +1<Enter>")
 vim.keymap.set({"n", "v"}, "<A-k>", ":m -2<Enter>")
+
+
+-- Git blame controlls
+vim.keymap.set("n", "<leader>gbt", vim.cmd.ToggleBlameLine)
+
 
 
 vim.cmd.highlight({ "Error", "guibg=red" })

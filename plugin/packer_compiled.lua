@@ -79,10 +79,20 @@ _G.packer_plugins = {
     path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
+  ["nvim-blame-line"] = {
+    loaded = true,
+    path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/nvim-blame-line",
+    url = "https://github.com/tveskag/nvim-blame-line"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/home/nerakc/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["plenary.nvim"] = {
     loaded = true,
