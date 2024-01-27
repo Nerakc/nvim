@@ -1,12 +1,8 @@
-require("nerakc/nvim-tree-conf")
-
-
 vim.cmd("set number relativenumber");
 vim.g.mapleader = " "
 
 
 -- Leader fast file changes
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>vq", vim.cmd.qa)
 vim.keymap.set("n", "<leader>vwq", vim.cmd.wqa)
 vim.keymap.set("n", "<leader>fw", vim.cmd.w)
