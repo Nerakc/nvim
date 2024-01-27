@@ -50,3 +50,4 @@ vim.cmd.highlight({ "link", "Warning", "Error" })
 
 
 -- TODO: Add a global variable based CapsToESC
+-- TODO: Add Substitue plugin
