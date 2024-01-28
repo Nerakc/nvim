@@ -12,8 +12,7 @@ return require('packer').startup(function(use)
 	
 	use { "tpope/vim-commentary" }
 
-	use { 'nvim-telescope/telescope.nvim', tag = '0.1.1',
-	-- or                            , branch = '0.1.x',
+	use { 'nvim-telescope/telescope.nvim',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
@@ -21,6 +20,9 @@ return require('packer').startup(function(use)
 		requires = { {"nvim-tree/nvim-web-devicons" } }
 	}
 
-	
+	use { "NvChad/nvim-colorizer.lua" }
+
+	use { "zbirenbaum/copilot.lua" }
+
 
 end)
