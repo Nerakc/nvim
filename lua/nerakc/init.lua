@@ -46,6 +46,16 @@ vim.keymap.set("n", "<leader>cp", ":Copilot panel<Enter>")
 vim.keymap.set({"v", "n"}, "<leader>emm", "<c-y>,", { remap = true })
 
 
+-- Buffer controlls
+vim.keymap.set("n", "<leader><Enter>", ":vsp<Enter>")
+
+
+-- Telescope controlls
+local telescope = require("telescope.builtin")
+vim.keymap.set("n", "<leader>ff", telescope.find_files)
+vim.keymap.set("n", "<leader>fg", telescope.live_grep)
+vim.keymap.set("n", "<leader>fh", telescope.help_tags)
+
 
 
 vim.cmd.highlight({ "Error", "guibg=red" })
