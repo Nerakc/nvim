@@ -42,6 +42,10 @@ vim.keymap.set("n", "<leader>gbt", vim.cmd.ToggleBlameLine)
 vim.keymap.set("n", "<leader>cp", ":Copilot panel<Enter>")
 
 
+-- Emmet controlls
+vim.keymap.set({"v", "n"}, "<leader>emm", "<c-y>,", { remap = true })
+
+
 
 
 vim.cmd.highlight({ "Error", "guibg=red" })

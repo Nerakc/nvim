@@ -24,5 +24,7 @@ return require('packer').startup(function(use)
 
 	use { "zbirenbaum/copilot.lua", as = "copilot" }
 
+	use { "mattn/emmet-vim" }
+
 
 end)
