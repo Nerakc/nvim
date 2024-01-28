@@ -22,7 +22,7 @@ return require('packer').startup(function(use)
 
 	use { "NvChad/nvim-colorizer.lua" }
 
-	use { "zbirenbaum/copilot.lua" }
+	use { "zbirenbaum/copilot.lua", as = "copilot" }
 
 
 end)

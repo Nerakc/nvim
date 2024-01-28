@@ -38,6 +38,11 @@ vim.keymap.set({"n", "v"}, "<A-k>", ":m -2<Enter>")
 vim.keymap.set("n", "<leader>gbt", vim.cmd.ToggleBlameLine)
 
 
+-- Copilot controlls
+vim.keymap.set("n", "<leader>cp", ":Copilot panel<Enter>")
+
+
+
 
 vim.cmd.highlight({ "Error", "guibg=red" })
 vim.cmd.highlight({ "link", "Warning", "Error" })
