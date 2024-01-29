@@ -11,11 +11,11 @@ vim.keymap.set("n", "<leader>fq", vim.cmd.q)
 
 -- Nvim tree controlls
 vim.keymap.set("n", "<leader>fo", vim.cmd.NvimTreeOpen)
-vim.keymap.set("n", "<leader>nt", vim.cmd.NvimTreeToggle)
+vim.keymap.set("n", "<leader>nt", function() require("nvim-tree.api").tree.toggle({find_file = true, focus = false}) end)
 
 
 -- Working with the + clipboard
-vim.keymap.set("i", "<C-v>", "<C-o>\"+p")
+vim.keymap.set("i", "<C-v>", "<C-o>h\"+p")
 vim.keymap.set("i", "<C-c>", "<C-o>\"+yy")
 vim.keymap.set("i", "<C-x>", "<C-o>\"+dd")
 vim.keymap.set("v", "<C-c>", "\"+y")
@@ -56,6 +56,9 @@ vim.keymap.set("n", "<leader>ff", telescope.find_files)
 vim.keymap.set("n", "<leader>fg", telescope.live_grep)
 vim.keymap.set("n", "<leader>fh", telescope.help_tags)
 
+
+-- Twilight controlls
+vim.keymap.set("n", "<leader>tw", vim.cmd.Twilight)
 
 
 vim.cmd.highlight({ "Error", "guibg=red" })

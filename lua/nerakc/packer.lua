@@ -28,5 +28,6 @@ return require('packer').startup(function(use)
 
 	use { "mattn/emmet-vim" }
 
+	use { "folke/twilight.nvim" }
 
 end)
